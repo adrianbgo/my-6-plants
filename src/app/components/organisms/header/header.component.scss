@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    .logo img {
+        height: 40px;
+    }
+
+    .nav-links a {
+        margin: 0 1em;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .search-bar input {
+        padding: 0.5em;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .user-profile {
+        display: flex;
+        align-items: center;
+    }
+}

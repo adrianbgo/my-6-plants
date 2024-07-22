@@ -1,0 +1,30 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+    .product-image {
+        height: auto;
+        width: 100%;
+    }
+
+    .product-details {
+        padding: 1em;
+
+        .product-name {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+
+        .product-price {
+            font-size: 1em;
+            color: #4caf50;
+            margin: 0.5em 0;
+        }
+    }
+}
