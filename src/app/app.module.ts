@@ -13,6 +13,9 @@ import { FooterComponent } from './components/organisms/footer/footer.component'
 import { HeroComponent } from './components/organisms/hero/hero.component';
 import { FeaturedProductsComponent } from './components/organisms/featured-products/featured-products.component';
 import { ProductCardComponent } from './components/molecules/product-card/product-card.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { ProductListingComponent } from './components/pages/product-listing/product-listing.component';
+import { ProductDetailComponent } from './components/pages/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { ProductCardComponent } from './components/molecules/product-card/produc
     HeroComponent,
     FeaturedProductsComponent,
     ProductCardComponent,
+    HomeComponent,
+    ProductListingComponent,
+    ProductDetailComponent,
   ],
   imports: [
     BrowserModule,
