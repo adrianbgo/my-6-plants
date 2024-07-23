@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
+        with:
+          repository: adrianbgo/my-6-plants
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -25,7 +27,7 @@ jobs:
         run: npm run build -- --base-href "/my-6-plants/"
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --repo="https://github.com/adrianbgo/my-6-plants.git" --dir=dist/my-6-plants --no-silent --name="adrianbgo" --email=adrianbgo@hotmail.com
+        run: npx angular-cli-ghpages --no-silent --name="adrianbgo" --email=adrianbgo@hotmail.com
 
       - name: Clean up gh-pages branch
         run: |
