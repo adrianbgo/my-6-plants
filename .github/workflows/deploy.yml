@@ -31,10 +31,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx angular-cli-ghpages --no-silent --name="adrianbgo" --email=adrianbgo@hotmail.com
 
-      - name: Clean up gh-pages branch
+      - name: Cleanup temporary branches
+        if: always()
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git checkout -b cleanup
-          git push origin --delete gh-pages
-          git branch -D cleanup
+          git branch -D cleanup || true
