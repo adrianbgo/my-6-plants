@@ -1,7 +1,7 @@
 @import 'src/styles/variables';
 input {
     padding: 0.5em;
-    border: 1px solid lighten(-color, .8);
+    border: 1px solid lighten($text-color, .8);
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
