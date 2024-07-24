@@ -10,22 +10,22 @@ export class FeaturedProductsComponent implements OnInit {
     {
       name: 'Plant Grow Light',
       price: 29.99,
-      image: 'assets/products/grow-light.jpg',
+      image: 'assets/products/grow-light.webp',
     },
     {
       name: 'Hydroponic System',
       price: 149.99,
-      image: 'assets/products/hydroponic-system.jpg',
+      image: 'assets/products/hydroponic-system.jpeg',
     },
     {
       name: 'Soil Moisture Sensor',
       price: 19.99,
-      image: 'assets/products/soil-moisture-sensor.jpg',
+      image: 'assets/products/soil-moisture-sensor.jpeg',
     },
     {
       name: 'Indoor Garden Kit',
       price: 89.99,
-      image: 'assets/products/indor-garden-kit.jpg',
+      image: 'assets/products/indoor-garden-kit.jpeg',
     },
   ];
 
