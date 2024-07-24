@@ -1,13 +1,14 @@
+@import 'src/styles/variables';
 button {
     padding: 0.5em 1em;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
-    color: white;
+    background-color: $accent-color;
+    color: $background-color;
     cursor: pointer;
 
     &:disabled {
-        background-color: #6c757d;
+        background-color: lighten($text-color, .2);
         cursor: not-allowed;
     }
 }
